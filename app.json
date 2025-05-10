@@ -8,7 +8,7 @@
   "env": {
     "SESSION_ID": {
       "description": "Put your SESSION_ID here.",
-      "value": ""
+      "value": "{"noiseKey":{"private":{"type":"Buffer","data":"8MVq+1Q5k+IOVUctBc6qNQwUKNljvbKkas8d+m3mpXo="},"public":{"type":"Buffer","data":"58bDjsqeMptPhRrlFU4zg9JXFNOUryxH6+j6h0j0GT8="}},"pairingEphemeralKeyPair":{"private":{"type":"Buffer","data":"iMoS0Qp3FHnGi0ijA99fMm7kpqPLoVVIOnK3Ro/aPnU="},"public":{"type":"Buffer","data":"rkHhF2yFEbQKQ5DZUKhQ0nTaGKTaFFBNR9IRoOb5ax8="}},"signedIdentityKey":{"private":{"type":"Buffer","data":"wCLc9wzZ6YATNn9tDftsBlwGBGQpmgAPcJTtUOYxXUg="},"public":{"type":"Buffer","data":"nNf3fLJl8A/VV0cNbk2lgtlO6vTEdqglG0jSvmktij8="}},"signedPreKey":{"keyPair":{"private":{"type":"Buffer","data":"IBE/9YWGBypzomrr597OcWg4kI8O/samJ24oLHWqz1Q="},"public":{"type":"Buffer","data":"bfvJgZ2QI5/2z+tMGErbzHZ7rMoZ65sy2L5GHk9fpzM="}},"signature":{"type":"Buffer","data":"+nNRfd6oDIJQR1HpHtvlk3hQ5TKvAE+CILMuzXp339enczoJeO/+SdHxCogdL+BwDTNmQTietHkl0TrJF5aLBQ=="},"keyId":1},"registrationId":168,"advSecretKey":"3c8zwh7TM+K8V9sFfZjOGvUNKDc+8mab+qDFsDOWIis=","processedHistoryMessages":[],"nextPreKeyId":31,"firstUnuploadedPreKeyId":31,"accountSyncCounter":0,"accountSettings":{"unarchiveChats":false},"deviceId":"PZH2ASUTR4u2Cfphbs_M2A","phoneId":"5998e604-3695-4c3d-95e4-e6a5a4b123b3","identityId":{"type":"Buffer","data":"V7lfj6FiftL3sT3FHF2Drtrh0Qg="},"registered":true,"backupToken":{"type":"Buffer","data":"ZmZZl1ERUVsxZsOiFS0/3gm+2nM="},"registration":{},"pairingCode":"SAGP92S8","me":{"id":"2349152437584:36@s.whatsapp.net"},"account":{"details":"CMnWwacBEI7D/MAGGAEgACgA","accountSignatureKey":"gqVV2czvcNRmKXo3DcXnPHHIR00flxYOzXrKzBtXr0g=","accountSignature":"YgVZmd+PYowJfBAcXWxztrnsDNvOybJdNNcAkyFaUx1XmTHnBh9Co6H5zthgGuCWAJJzzgyZdE/vjQls+xjaCw==","deviceSignature":"icO42/OuDzLpbrNY4Ibn6bu6GjRgBcaymj1Qhs5z1YEVMVacd0opyiEV4S76yzzrzbvzErRkC3R1ARHRQtRPAg=="},"signalIdentities":[{"identifier":{"name":"2349152437584:36@s.whatsapp.net","deviceId":0},"identifierKey":{"type":"Buffer","data":"BYKlVdnM73DUZil6Nw3F5zxxyEdNH5cWDs16yswbV69I"}}],"platform":"android","lastAccountSyncTimestamp":1746870683}"
     },
     "PREFIX": {
       "description": "Enter your desired prefix for bot. You can set `all | . | .!*`",
@@ -51,7 +51,7 @@
     },
     "OWNER_NUMBER": {
       "description": "The phone numbers of the users who you want to be admin for the bot (should be in international format without + and multiple numbers must be separated by a comma \",\").",
-      "value": "2349066528353"
+      "value": "2349152437584"
     },
     "PUBLIC": {
       "description": "Worktype of your bot. Use public or private. If it is private, then only the bot number can use it. If public, then everyone can use it.",
